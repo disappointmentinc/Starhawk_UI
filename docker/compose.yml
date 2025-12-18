@@ -7,8 +7,7 @@ services:
       - '21372:3000'
     environment:
       - NO_HTTPS=1
-    env_file:
-      - .env
+
     dns:
       - 8.8.8.8 # Google's public DNS server
       - 8.8.4.4 # Google's public DNS server
@@ -20,8 +19,7 @@ services:
 
   postgres:
     image: postgres:17
-    env_file:
-      - .env
+
     networks:
       - better-chatbot-networks
     volumes:
