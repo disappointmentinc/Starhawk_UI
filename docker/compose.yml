@@ -4,7 +4,7 @@ services:
       context: ..
       dockerfile: ./docker/Dockerfile
     ports:
-      - '1371:1371'
+      - '3000:3000'
     environment:
       - NO_HTTPS=1
 
