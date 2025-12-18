@@ -188,7 +188,7 @@
       "createAccount": "Create account"
     },
     "Intro": {
-      "description": "Welcome to better-chatbot. Sign in to experience our AI-powered conversational tools."
+      "description": "Welcome to Starhawk UI 1.06. Sign in to experience our AI-powered conversational tools."
     }
   },
   "Chat": {
@@ -425,7 +425,7 @@
     "generateAgentGreeting": "Hello! I'll help you create your own agent. What would you like to create?",
     "generateAgentDetailedGreeting": "Hello! I'll help you create your own agent. What would you like to create? You can write briefly or in detail.",
     "inputPromptHere": "input prompt here...",
-    "agentNamePlaceholder": "better-agent",
+    "agentNamePlaceholder": "starhawk-agent",
     "myAgents": "My Agents",
     "bookmarkedAgents": "Bookmarked Agents",
     "sharedAgents": "Shared Agents",

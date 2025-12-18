@@ -28,6 +28,7 @@ playwright-report/
 .DS_Store
 *.pem
 *.local.*
+*.tar.gz
 
 # debug
 npm-debug.log*

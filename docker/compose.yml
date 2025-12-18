@@ -1,10 +1,10 @@
 services:
-  better-chatbot:
+  starhawk:
     build:
       context: ..
       dockerfile: ./docker/Dockerfile
     ports:
-      - '3000:3000'
+      - '21372:3000'
     environment:
       - NO_HTTPS=1
     env_file:

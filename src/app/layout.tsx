@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "better-chatbot",
+  title: "Starhawk UI 1.06",
   description:
-    "Better Chatbot is a chatbot that uses the Tools to answer questions.",
+    "Starhawk UI 1.06 is a chatbot that uses the Tools to answer questions.",
 };
 
 export default async function RootLayout({

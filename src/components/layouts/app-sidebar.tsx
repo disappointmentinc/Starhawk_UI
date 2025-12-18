@@ -39,7 +39,7 @@ export function AppSidebar({
       className="border-r border-sidebar-border/80"
     >
       <SidebarHeaderShared
-        title="better-chatbot"
+        title="Starhawk UI 1.06"
         href="/"
         enableShortcuts={true}
         onLinkClick={() => {
