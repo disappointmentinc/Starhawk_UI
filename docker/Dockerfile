@@ -1,4 +1,4 @@
-FROM node:23-alpine AS builder
+FROM node:24-alpine AS builder
 ARG DOCKER_BUILD="1"
 WORKDIR /app
 
@@ -15,7 +15,7 @@ ENV NEXT_STANDALONE_OUTPUT="true"
 
 RUN pnpm build
 
-FROM node:23-alpine AS runner
+FROM node:24-alpine AS runner
 
 WORKDIR /app
 
